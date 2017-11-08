@@ -25,7 +25,7 @@ header {
 }
 
 .tagline {
-  width: 600px;
+  /*width: 600px;*/
   font-family: "Gotham SSm A","Gotham SSm B",Arial,sans-serif;
   font-size: 18px;
 }
@@ -97,4 +97,21 @@ a {
   margin: 0 0 10px 10px;
   position: absolute;
   bottom:0;
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+
+}
+
+
+
+@media (min-width: 768px){
+  .article1 {
+    background-color: red;
+    padding: 15px;
+    margin: 0;
+    width: 33%;
+    float:left;
+  }
+
 }
