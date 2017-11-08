@@ -13,31 +13,36 @@ html {
 body {
   margin: 0;
   padding: 0;
+  background-color: blue;
 }
 
 header {
   padding: 30px;
+  padding-bottom: 0px;
 }
 
 .logo {
   float: left;
   margin-right: 20px;
+  margin-bottom: 20px;
+  width: 100%;
 }
 
 .tagline {
-  /*width: 600px;*/
-  font-family: "Gotham SSm A","Gotham SSm B",Arial,sans-serif;
-  font-size: 18px;
+  width: 80%;
+  font-family: Helvetica;
+  font-weight: lighter;
+  font-size: 20px;
 }
 
 .logo img {
-  width: 60px;
+  width: 80px;
+  display: block;
 }
 
 .articles {
   width: 100%;
   height: 200px;
-  margin-top: 30px;
   padding: 15px;
 }
 
@@ -71,24 +76,26 @@ img {
 h1 {
   background: white;
   display: inline;
-  padding: 5px;
-  margin: 0 0 80px 10px;
+  padding: 8px;
+  margin: 0 20px 70px 20px;
   position: absolute;
   bottom:0;
   font-family: Helvetica;
-  font-size: 30px;
+  font-size: 20px;
   color: black;
 }
 
 .article2 p{
   background: white;
-  opacity: 0.5;
   display: inline;
-  padding: 5px;
-  margin: 0 0 50px 10px;
+  padding: 8px;
+  margin: 0 0 25px 20px;
   position: absolute;
   bottom:0;
   font-family: Helvetica;
+  color: black;
+  font-weight: bold;
+  font-size: 12px;
 
 }
 
@@ -97,6 +104,17 @@ a:hover{
 
 @media (min-width: 480px) and (max-width: 767px) {
 
+h1 {
+  font-size: 35px;
+  }
+
+.article2 p{
+  font-size: 20px;
+  }
+
+  .tagline {
+    font-size: 30px;
+  }
 }
 
 
@@ -106,5 +124,17 @@ a:hover{
     /*background-color: red;*/
     width: 33%;
   }
+
+  h1 {
+    font-size: 18px;
+    }
+
+  .article2 p{
+    font-size: 10px;
+    }
+
+    .tagline {
+      font-size: 40px;
+    }
 
 }
