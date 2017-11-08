@@ -1,6 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   background: #f2f1f4;
   color: #19171c;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }
 
 header {
@@ -20,4 +32,21 @@ header {
 
 .logo img {
   width: 60px;
+}
+
+.articles{
+  width: 100%;
+  padding:0;
+  margin:0;
+}
+
+.article1 {
+  background-color: black;
+  padding: 10px;
+  width: 33.3%;
+  float:left;
+}
+
+.article2 {
+  background-color: yellow;
 }
