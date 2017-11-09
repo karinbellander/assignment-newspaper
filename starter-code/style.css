@@ -99,11 +99,32 @@ h1 {
   font-size: 12px;
 }
 
-a:hover img:hover{
+a:hover img:hover {
   margin-top: -5px;
   box-shadow: 10px 10px 5px purple;
 }
 
+footer a {
+  text-decoration: none;
+  color: black;
+  box-shadow: 10px 10px 5px purple;
+}
+
+footer a:hover {
+  color: purple;
+}
+
+
+
+footer {
+  width: 100%;
+  padding: 30px;
+  float:left;
+  padding-bottom: 10px;
+  background-color: blue;
+  background: linear-gradient(to bottom right, yellow, white);
+  font-family: Helvetica;
+}
 
 @media (min-width: 480px) and (max-width: 767px) {
 
