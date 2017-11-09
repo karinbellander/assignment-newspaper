@@ -99,12 +99,13 @@ h1 {
   font-size: 12px;
 }
 
-a:hover {
+a:hover img:hover{
   margin-top: -5px;
+  box-shadow: 10px 10px 5px purple;
 }
 
 a img:hover {
-  box-shadow: 10px 10px 5px purple;
+
   margin-top: -5px;
 }
 
