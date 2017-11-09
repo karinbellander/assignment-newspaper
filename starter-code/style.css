@@ -127,8 +127,8 @@ h1 {
     width: 33%;
   }
 
-  .article:nth-child(2){
-
+  .article1:nth-child(3n+1) {
+    clear: left;
   }
 
 
